@@ -1,0 +1,30 @@
+Stu_name = input("Enter your name: ")
+Stu_ID = int(input("Enter your ID: "))
+Stu_age = int(input("Enter your age: "))
+Stu_height = float(input("Enter your height: "))
+School_name = input("Enter your school : ")
+
+Marks_sub1 = float(input("Enter your marks in subject 1: "))
+Marks_sub2 = float(input("Enter your marks in subject 2: "))
+Marks_sub3 = float(input("Enter your marks in subject 3: "))
+
+Average = (Marks_sub1+Marks_sub2+Marks_sub3)/3
+
+print(type(Stu_name))
+print(type(Stu_age))
+print(type(Stu_ID))
+print(type(Stu_height))
+print(type(School_name))
+print(type(Marks_sub1))
+print(type(Marks_sub2))
+print(type(Marks_sub3))
+
+print("Student name: ",Stu_name)
+print("Student age: ",Stu_age)
+print("Student ID : ", Stu_ID)
+print("student Height",Stu_height)
+print("Marks for subject 1",Marks_sub1)
+print("Marks for subject 2",Marks_sub2)
+print("Marks for subject 3",Marks_sub3)
+print("Average Marks : ",Average)
+print("School name : ", School_name)
