@@ -1,0 +1,16 @@
+t = (10,20,30,40,50)
+print(t[0])
+print(t[1:4])
+print(t[:3])
+print(t[2:])
+print(t[-3:])
+
+t.index(30)
+
+len(t)
+min(t)
+max(t)
+sum(t)
+sorted(t)
+tuple([1,2,3])
+tuple(reversed(t))

@@ -1,0 +1,11 @@
+student =[["john", 85], ["Mary", 92],["david", 78]]
+print(student)
+print(student[0])
+print(student[1])
+print(student[2])
+print(student[0][0])
+print(student[0][1])
+print(student[1][1])
+print(student[1][1])
+print(student[2][0])
+print(student[2][1])
