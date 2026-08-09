@@ -19,6 +19,18 @@ print(student)
 student.popitem()
 print(student)
 
-student.clear()
+#student.clear()
 print(student)
+
+len(student)
+
+type(student)
+
+print(sorted(student))
+
+min(student)
+
+max(student)
+
+nw_std =dict(student)
 
