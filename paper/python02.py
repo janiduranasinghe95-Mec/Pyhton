@@ -9,8 +9,7 @@ else:
     if Sci < 0 or Sci > 100:
         print("Invalid Science marks")
     else:
-        Ict = i
-        nt(input("Enter ICT marks: "))
+        Ict = int(input("Enter ICT marks: "))
 
         if Ict < 0 or Ict > 100:
             print("Invalid ICT marks")
